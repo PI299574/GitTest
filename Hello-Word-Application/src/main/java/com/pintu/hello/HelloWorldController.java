@@ -11,4 +11,7 @@ public class HelloWorldController {
 	public String hello(@PathVariable("name") String name) {
 		return "Hello! " + name;
 	}
+	static  void test_main() {
+		System.out.println("Git Chcek");
+	}
 }
